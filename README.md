@@ -1,5 +1,9 @@
 # Programming Club
 
+Episodes:
+
+* [s1-e1](https://youtu.be/oFArZXJ65RI)
+
 # What is programming?
 
 We write code to talk to our computers.
