@@ -1,33 +1,22 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
 int main(int argc, char *argv[])
 {
-  char bike_rack[8];
-  for (int i = 0; i < 8; i = i + 1)
+  // AND &&
+  // OR ||
+  //
+  int age = 30;
+
+  if (/* */)
   {
-    bike_rack[i] = '\0'; // NULL -> nothing
+    printf("Fly to Hawaii\n");
   }
-
-  // rack: [0, 1, 2, 3]
-  // mo: 'm'
-  // om: 'o'
-  // bo: 'b'
-  // yo: 'y'
-
-  bike_rack[0] = 'm';
-  /*bike_rack[1] = 'o';*/
-  /*bike_rack[2] = 'b';*/
-  bike_rack[3] = 'y';
-
-  for (int i = 0; i < 8; i = i + 1)
+  else
   {
-    int bike = bike_rack[i];
-    printf("bike rack slot %d: %c\n", i, bike);
+    printf("Camp in the back yard\n");
   }
-
-  printf("\n");
-  return 0;
 }
 
 // 1. compile: c -> machine

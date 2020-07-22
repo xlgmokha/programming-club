@@ -92,3 +92,57 @@ rinse and repeat
     printf("true\n");
   }
 ```
+
+# conditions and logic
+
+
+
+
+# polygraphs
+
+* lie detector
+
+
+question:
+
+Q: Are you 36 years old?
+A: no
+
+* FAIL: this is not the truth
+  * the exam is over
+
+Q: Are you a male?
+A: yes
+
+* PASS: this is the truth
+  * continue to ask the next question
+
+* true | false
+* yes  | no
+
+
+
+Truth tables
+
+* true: 1
+* false: 0
+
+AND
+
+| - | - | ------ |
+| x | y | result |
+| - | - | ------ |
+| 0 | 0 | 0      |
+| 0 | 1 | 0      |
+| 1 | 0 | 0      |
+| 1 | 1 | 1      |
+
+OR
+
+| - | - | ------ |
+| x | y | result |
+| - | - | ------ |
+| 0 | 0 | 0      |
+| 0 | 1 | 1      |
+| 1 | 0 | 1      |
+| 1 | 1 | 1      |
