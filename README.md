@@ -17,13 +17,8 @@ We tell the computer what to do.
 Topics
 
 * variables
-
-
-
 * statements/expressions
 * looping
-
-
 
 "mo"
 
@@ -146,3 +141,44 @@ OR
 | 0 | 1 | 1      |
 | 1 | 0 | 1      |
 | 1 | 1 | 1      |
+
+
+* functions: behaviour
+* structs: data
+
+
+code + data = programming
+
+
+allocation a variable -> stack
+
+
+
+* pass by value
+
+ x -> clone -> x1
+
+(x1)
+ \x1\
+  \x1\
+   \x1\
+    (x1 * 2)
+     -
+
+* pass by reference
+
+ `*x`
+(x)
+ \x\
+  \x\
+   \ \
+    ( )
+     -
+
+Workbench
+
+* text editor (vscode, emacs, vim, nano, textmate)
+* compiler toolchain
+  * GNU: gcc
+  * LLVM: clang
+* terminal:
