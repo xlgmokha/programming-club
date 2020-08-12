@@ -182,3 +182,9 @@ Workbench
   * GNU: gcc
   * LLVM: clang
 * terminal:
+
+
+# Version Control
+
+- Version (1 - many)
+- Control -> navigate -> time travel -> history
