@@ -184,6 +184,13 @@ Workbench
 * terminal:
 
 
+* variable declaration
+* assignment
+* conditional expression
+* loops
+* functions
+* structs / data
+
 # Version Control
 
 - Version (1 - many)
@@ -192,12 +199,42 @@ Workbench
 # Recursion
 
 The Fibonacci numbers are the numbers in the following integer sequence.
-0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ...
+
+|0|1|2|3|4|5|6| 7| 8| 9|10|11| 12|
+---------------
+|0|1|1|2|3|5|8|13|21|34|55|89|144| ...
+
+12th number
+
+n = 12
+n - 1 = 11
+n - 2 = 11
+
+n0 = 0
+n1 = 1
+n = (n-1) + (n-2)
+
+144 = 89 + 55
 
 ```plaintext
   Fn = Fn-1 + Fn-2
   F0 = 0 and F1 = 1
 ```
+
+How to solve a problem?
+
+1. Understand the problem
+2. Pick a solution
+3. Implement
+4. Review
+
+Test Driven Development/Design
+
+1. Red -> failing testing
+2. Green -> make it pass, be responsible
+3. Refactor -> reflect. can we improve this?
+  * time/space complexity
+  * program design
 
 Problem:
 
